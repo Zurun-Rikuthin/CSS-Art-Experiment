@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*border: red 1px dotted*/
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#canvas {
+    max-height: 90vh;
+    max-width: 90vw;
+    height: 90vh;
+    width: 90vh;
+    position: absolute;
+    border: whitesmoke 3px solid;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: grid;
+}
+
+.pixel {
+    height: 100%;
+    width: 100%;
+    border: red 1px solid;
+}
